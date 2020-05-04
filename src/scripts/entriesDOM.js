@@ -10,3 +10,5 @@ const renderJournalEntries = (entries) => {
 }
 
 renderJournalEntries(journalEntries);
+
+export default renderJournalEntries
