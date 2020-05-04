@@ -1,0 +1,20 @@
+{
+    "entries":
+[ 
+    {
+    "id": 1,
+    "date": "2020-04-17",
+    "concept": "functions",
+    "content": "reviewed functions, which are essentially recipes that create tasks",
+    "mood": "Okay"
+    },
+ 
+    {
+       "id": 2,
+       "date": "2020-04-22",
+       "concept": "APIs",
+       "content": "learned about Application Programming Interfaces, essentially a database used as a tool by developers to retrieve data",
+       "mood": "Sad"
+    }
+ ]
+}
