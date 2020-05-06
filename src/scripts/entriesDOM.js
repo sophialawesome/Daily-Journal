@@ -1,7 +1,12 @@
+import makeJournalEntryComponent from "./entryComponent.js";
 
-const entryContainer = document.querySelector(".entryLog");
 
 const renderJournalEntries = (entries) => {
+
+   const entryContainer = document.querySelector(".entryLog");
+
+   entryContainer.innerHTML = "";
+   
    for (let i = 0; i < entries.length; i++){
       const entry = entries[i]
       entryContainer.innerHTML += makeJournalEntryComponent(entry)
@@ -9,6 +14,5 @@ const renderJournalEntries = (entries) => {
    
 }
 
-renderJournalEntries(journalEntries);
 
 export default renderJournalEntries
