@@ -41,6 +41,13 @@
       "content": "ahhhhhhhhhhhhhhhhhhhhhh",
       "mood": "okay",
       "id": 6
+    },
+    {
+      "date": "2020-05-06",
+      "concept": "filtering data with array methods",
+      "content": "learned how to organize and search through data by using sort() and forEach() methods.",
+      "mood": "okay",
+      "id": 7
     }
   ]
 }

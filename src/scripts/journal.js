@@ -26,3 +26,26 @@ API.saveJournalEntry(newEntry)
 
 }
 );
+
+// create a selector to select ALL radio buttons
+const radioButtons = document.querySelectorAll('input[type="radio"]'); //grabs element type
+console.log(radioButtons);
+
+//iterates each item in the array and then does something 
+radioButtons.forEach(button => {
+   button.addEventListener("click", (event) => {
+      
+      let mood = event.target.value
+      
+      API.getJournalEntries().then(entries => {
+         let selectedMood = entries.filter(
+            entry => {
+               let isMood = false;
+               if (entry.mood.toLowerCase() == mood) {
+                  isMood = true;
+               } return isMood
+            })
+            renderJournalEntries(selectedMood);
+      })
+   })
+})
