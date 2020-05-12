@@ -4,17 +4,20 @@
 
     Arguments: journalEntry (object)
 */
+
+
 const makeJournalEntryComponent = (journalEntry) => {
     // Create your own HTML structure for a journal entry
-    return `
-          <div class="entryLog">
-             <h1> ${journalEntry.concept} </h1>
- 
-             <section>
-             ${journalEntry.content} <br> 
-             ${journalEntry.date}</section>
-             <aside> Mood: ${journalEntry.mood}</aside>
-         </div>
+     return `
+            <section class="entry--${journalEntry.id}">
+                <h1> ${journalEntry.concept} </h1>
+                ${journalEntry.content} <br> 
+                ${journalEntry.date}
+                <aside> Mood: ${journalEntry.mood}</aside>
+                <button id="deleteEntry--${journalEntry.id}">
+                Delete Entry
+            </button>
+             </section>
  
     `
  }

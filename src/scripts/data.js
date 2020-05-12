@@ -15,5 +15,11 @@ export default {
             body: JSON.stringify(entry)
 
         });
+    },
+    deleteJournalEntry(entry) {
+        return fetch(`${API}/${entry}`, {
+            method: "DELETE"
+        })
+            .then(response => response.json())
     }
 }
