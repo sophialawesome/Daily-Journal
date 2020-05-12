@@ -16,27 +16,6 @@
     },
     {
       "date": "2020-05-05",
-      "concept": "review ",
-      "content": "gdlijgdofigjsdoigjdoigjoigjoi ahhhhhh",
-      "mood": "okay",
-      "id": 3
-    },
-    {
-      "date": "2020-05-05",
-      "concept": "new entry",
-      "content": "lsjldfj",
-      "mood": "okay",
-      "id": 4
-    },
-    {
-      "date": "2020-05-05",
-      "concept": "revenge of the fifth",
-      "content": "dad joke hahaha",
-      "mood": "happy",
-      "id": 5
-    },
-    {
-      "date": "2020-05-05",
       "concept": ".then",
       "content": "ahhhhhhhhhhhhhhhhhhhhhh",
       "mood": "okay",
@@ -48,6 +27,13 @@
       "content": "learned how to organize and search through data by using sort() and forEach() methods.",
       "mood": "okay",
       "id": 7
+    },
+    {
+      "date": "2020-05-12",
+      "concept": "blugh",
+      "content": "blugh",
+      "mood": "sad",
+      "id": 8
     }
   ]
 }
